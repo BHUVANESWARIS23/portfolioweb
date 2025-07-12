@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOOD MENU</title>
+    <style>
+        body{
+            font-family: 'Segoe UI', sans-serif;
+            background-color: black;
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+      header{
+        text-align: center;
+        padding: 40px 20px 20px;
+      }
+      header h1{
+        font-size: 50px;
+        margin: 0;
+      }
+      header p{
+        margin: 10px 0;
+        font-style: 22px;
+        color: white;
+      }
+     .section{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 30px auto;
+        max-width: 1000px;
+        padding: 20px;
+        background-color: black;
+        border-radius: 12px;
+     }
+     .section:nth-child(even) {
+      flex-direction: row-reverse;
+    }
+    .menu text{
+        width: 60%;
+    }
+    .menu-text h2{
+        background-color: orange;
+        display: inline-block;
+        padding: 5px 15px;
+        border-radius: 5px;
+        color: black;
+    }
+    .menu-text ul{
+        list-style: none;
+        padding: 0%;
+        margin-top: 15px;
+    }
+    .menu-text li{
+        display: flex;
+        justify-content: space-between;
+        padding: 5px 0;
+        font-size: 18px;
+    }
+    .menu-img{
+        width: 35%;
+        border-radius: 50%;
+        overflow: hidden;
+        border: 15px solid orange;
+    }
+    .menu-img img{
+        width: 100%;
+        height: auto;
+    }
+    footer{
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+        background-color: black;
+        padding: 20px;
+        color: white;
+        font-size: 16px;
+    }
+    footer div{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        background-color: orange;
+        color: black;
+        padding: 10px 15px;
+        border-radius: 25px;
+    }
+    </style>
+</head>
+<body>
+   <header>
+   <h1>FOOD MENU</h1> 
+   <p>SBL RESTAURANT</p>
+   </header><div class="section">
+    <div class="menu-text">
+   <h2>BREAKFAST MENU</h2>
+   <ul>
+    <li><span>IDLY</span><span>20</span></li>
+    <li><span>PONGAL</span><span>60</span></li>
+    <li><span>DOSA</span><span>70</span></li>
+    <li><span>MASALA DOSA</span><span>80</span></li>
+    <li><span>POORI</span><span>50</span></li>
+</ul></div>
+<div class="menu-img">
+<img src="dosa.jpg" alt="BREAKFAST MENU"></div></div>
+<div class="section">
+    <div class="menu-text">
+<h2>LUNCH MENU</h2>
+<ul>
+    <li><span>SAMBAR RICE</span><span>60</span></li>
+    <li><span>CURD RICE</span><span>60</span></li>
+    <li><span>MEALS</span><span>80</span></li>
+    <li><span>VEG BRIYANI</span><span>100</span></li>
+    <li><span>TOMATO RICE</span><span>60</span></li>
+</ul></div><div class="menu-img">
+<img src="briyani.jpg" alt="LUNCH MENU"></div></div>
+<div class="section">
+    <div class="menu-text">
+<h2>DINNER MENU</h2>
+<ul>
+    <li><span>NOODLES</span><span>60</span></li>
+    <li><span>FRIED RICE</span><span>60</span></li>
+    <li><span>PANNEER TIKKA</span><span>80</span></li>
+    <li><span>MUSHROOM RICE</span><span>100</span></li>
+    <li><span>GOBI RICE</span><span>60</span></li>
+</ul></div>
+<div class="menu-img">
+<img src="noodles.jpg" alt="DINNER MENU"></div></div>
+<footer>
+    <div><span>8122878308</span></div>
+    <div><span>ADYAR</span></div>   
+</footer> 
+</body>
+</html>
